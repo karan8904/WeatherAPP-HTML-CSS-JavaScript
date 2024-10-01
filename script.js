@@ -17,7 +17,7 @@ app.style.display = "none"
 const getWeatherInfo = async (e) => {
     try {
         if (city.value) {
-            const response = await fetch(`http://api.weatherapi.com/v1/forecast.json?key=f8df5c3b7caa4242aab155736241806&q=${city.value}&aqi=no&alerts=no`)
+            const response = await fetch(`https://api.weatherapi.com/v1/forecast.json?key=f8df5c3b7caa4242aab155736241806&q=${city.value}&aqi=no&alerts=no`)
             const weather = await response.json()
             const forecast = weather.forecast.forecastday[0].day
 
