@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/66216847cd.js" crossorigin="anonymous"></script>
+    <title>WeatherApp</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" id="input-text" placeholder="Search a city">
+        <button id="search-button"><i class="fa-solid fa-magnifying-glass fa-lg"></i></button>
+
+        <div class="search" id="search">
+            <i class="fa-solid fa-magnifying-glass fa-5x"></i>
+            <h2>Search for a city</h2>
+            <p>To get information about its weather!</p>
+        </div>
+
+        <div id="info">
+            <div class="header-info">
+                <div class="img" id="weather-img"></div>
+                <h3 id="weather-text"></h3>
+                <h5 id="location"></h5>
+            </div>
+
+            <div class="main-info">
+                <h1 id="current-temp"></h1>
+                <div class="min-max">
+                    <div><i class="fa-solid fa-arrow-up"></i>
+                        <p id="max-temp"></p>
+                    </div>
+                    <div><i class="fa-solid fa-arrow-down"></i>
+                        <p id="min-temp"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="other-info">
+                <div class="humidity">
+                    <p><i class="fa-solid fa-droplet fa-2x"></i></p>
+                    <p id="humidity"></p>
+                    <h5>Humidity</h5>
+                </div>
+                <div class="chanceOfRain">
+                    <p><i class="fa-solid fa-cloud-rain fa-2x"></i></p>
+                    <p id="chance-of-rain"></p>
+                    <h5>Chance of Rain</h5>
+                </div>
+                <div class="wind">
+                    <p><i class="fa-solid fa-wind fa-2x"></i></p>
+                    <p id="wind-speed"></p>
+                    <h5>Wind</h5>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

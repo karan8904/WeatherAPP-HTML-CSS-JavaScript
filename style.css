@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(187deg, #59def9 0%, #59def9 47%, #f5fafd 47%, #f5fafd 100%);
+    overflow: hidden;
+}
+
+.container{
+    background-color: #f5fafd;
+    border: 2px solid black;
+    width: 25%;
+    margin: 100px auto 0;
+    padding: 20px 2px 20px 14px ;
+}
+
+.container #input-text{
+    width: 72%;
+    padding: 13px;
+    font-size: 15px;
+}
+
+.container button{
+    padding: 14px;
+    margin-left: 17px;
+    cursor: pointer;
+}
+
+
+.header-info{
+    margin: 20px 0;
+}
+
+.header-info .img{
+    width: 21%;
+    margin: 0 auto;
+}
+
+.header-info img{
+    width: 100%
+}
+
+.header-info h3{
+    text-align: center;
+    margin: 5px;
+}
+
+.header-info h5{
+    text-align: center;
+}
+
+.main-info h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.min-max{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 25px;
+    font-size: 18px;
+}
+
+.min-max p{
+    display: inline;
+    margin: 5px;
+}
+
+.other-info{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.other-info p{
+    text-align: center;
+    padding: 7px;
+}
+
+.other-info h5{
+    text-align: center;
+    margin: 5px 0;
+    font-weight: 600;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 70px 0;
+}
+
+.search h2{
+    margin: 50px 0 15px 0;
+    font-weight: 600;
+}
